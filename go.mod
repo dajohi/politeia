@@ -3,7 +3,7 @@ module github.com/decred/politeia
 go 1.13
 
 require (
-	decred.org/dcrwallet v1.2.3-0.20200925172850-94689a677799
+	decred.org/dcrwallet v1.6.0-rc4
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/coreos/bbolt v1.3.3 // indirect
 	github.com/coreos/etcd v3.3.15+incompatible // indirect
@@ -12,11 +12,11 @@ require (
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/dajohi/goemail v1.0.0
 	github.com/davecgh/go-spew v1.1.1
-	github.com/decred/dcrd/blockchain/stake/v3 v3.0.0-20200921185235-6d75c7ec1199
-	github.com/decred/dcrd/certgen v1.1.1-0.20200921185235-6d75c7ec1199
-	github.com/decred/dcrd/chaincfg/chainhash v1.0.3-0.20200921185235-6d75c7ec1199
+	github.com/decred/dcrd/blockchain/stake/v3 v3.0.0
+	github.com/decred/dcrd/certgen v1.1.1
+	github.com/decred/dcrd/chaincfg/chainhash v1.0.2
 	github.com/decred/dcrd/chaincfg/v3 v3.0.0
-	github.com/decred/dcrd/dcrec v1.0.1-0.20200921185235-6d75c7ec1199
+	github.com/decred/dcrd/dcrec v1.0.0
 	github.com/decred/dcrd/dcrec/secp256k1/v3 v3.0.0
 	github.com/decred/dcrd/dcrutil/v3 v3.0.0
 	github.com/decred/dcrd/hdkeychain/v3 v3.0.0
@@ -33,7 +33,7 @@ require (
 	github.com/go-test/deep v1.0.1
 	github.com/gogo/protobuf v1.3.0 // indirect
 	github.com/golang/groupcache v0.0.0-20190702054246-869f871628b6 // indirect
-	github.com/golang/protobuf v1.3.2
+	github.com/golang/protobuf v1.4.2
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/certificate-transparency-go v1.0.21 // indirect
 	github.com/google/trillian v1.2.1
@@ -62,17 +62,17 @@ require (
 	github.com/robfig/cron v1.2.0
 	github.com/soheilhy/cmux v0.1.4 // indirect
 	github.com/subosito/gozaru v0.0.0-20190625071150-416082cce636
-	github.com/syndtr/goleveldb v1.0.0
+	github.com/syndtr/goleveldb v1.0.1-0.20200815110645-5c35d600f0ca
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 // indirect
 	github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2 // indirect
 	go.opencensus.io v0.22.0 // indirect
 	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	go.uber.org/zap v1.10.0 // indirect
-	golang.org/x/crypto v0.0.0-20200214034016-1d94cc7ab1c6
-	golang.org/x/net v0.0.0-20191028085509-fe3aa8a45271
+	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
+	golang.org/x/net v0.0.0-20200813134508-3edf25e44fcc
 	golang.org/x/oauth2 v0.0.0-20200107190931-bf48bf16ab8d
-	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
-	google.golang.org/grpc v1.25.1
+	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
+	google.golang.org/grpc v1.32.0
 	sigs.k8s.io/yaml v1.1.0 // indirect
 )
